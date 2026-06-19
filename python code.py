@@ -109,7 +109,6 @@ def run_chatbot() -> None:
     print("  ChatBot 🤖  |  type 'bye' to exit")
     print("─" * 44)
  
-    # Opening line
     opener = "Hey! 👋 I'm ChatBot. How can I help you today?"
     typing_pause(opener)
     print(f"\nChatBot: {opener}\n")
